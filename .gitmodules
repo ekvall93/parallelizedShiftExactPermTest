@@ -1,0 +1,3 @@
+[submodule "ArticleParallelizedExactTest"]
+	path = ArticleParallelizedExactTest
+	url = https://github.com/ekvall93/ArticleParallelizedExactTest.git
