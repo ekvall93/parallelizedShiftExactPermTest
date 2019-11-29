@@ -37,10 +37,10 @@ runFastPerm <- function(nrSamples,meanY, sampleSizeList) {
       
     }
     print(e)
-    write.table(X, sprintf('./Desktop/data/data_%s/X_%s.csv',meanY, sampleSize),)
-    write.table(Y, sprintf('./Desktop/data/data_%s/y_%s.csv',meanY, sampleSize))
-    write.table(format(e, scientific = FALSE), sprintf('./Desktop/data/data_%s/error_%s.csv',meanY, sampleSize), quote = FALSE)
-    write.table(format(Time, scientific = FALSE), sprintf('./Desktop/data/data_%s/Time_%s.csv',meanY, sampleSize), quote = FALSE)
+    write.table(X, sprintf('./dataFastPerm/data_%s/X_%s.csv',meanY, sampleSize),)
+    write.table(Y, sprintf('./dataFastPerm/data_%s/y_%s.csv',meanY, sampleSize))
+    write.table(format(e, scientific = FALSE), sprintf('./dataFastPerm/data_%s/error_%s.csv',meanY, sampleSize), quote = FALSE)
+    write.table(format(Time, scientific = FALSE), sprintf('./dataFastPerm/data_%s/Time_%s.csv',meanY, sampleSize), quote = FALSE)
   
   }
 
